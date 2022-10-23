@@ -10,7 +10,7 @@ const createWindow = () => {
       preload: path.join(__dirname, 'preload.js')
     }
   })
-    mainWindow.loadURL("http://192.168.178.49:3000/auth/login") // <------ Here Change you Adress from you GUI
+    mainWindow.loadURL("http://192.168.178.49:3000/auth/login") // <------ Here you change your IP from your GUI
 }
 
 
